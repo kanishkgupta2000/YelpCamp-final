@@ -16,7 +16,8 @@ var campgroundRoutes =require("./routes/campgrounds"),
 	indexRoutes       =require("./routes/index");
 
 //seedDB();
-mongoose.connect('mongodb+srv://kanishk123:LYYJaVGYUxww5RqE@cluster0-a31xe.mongodb.net/test?retryWrites=true&w=majority', 
+
+mongoose.connect('mongodb+srv://kanishk123:LYYJaVGYUxww5RqE@cluster0-ft16k.mongodb.net/test?retryWrites=true&w=majority', 
 				 {
 	useNewUrlParser: true,
 	useCreateIndex:true																					
